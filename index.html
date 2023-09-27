@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad: Me Gusta </title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <div class="barra-nav">
+        <h2>Network</h2>
+    </div>
+    <div class="feed">
+        <h2> You Feed</h2>
+    </div>
+    <div class="contenedor">
+        <div class="col-izq">
+            <div>
+                <img src="./user-circle.png" alt="usuario" class="avatar">
+            </div>
+            <div>
+                <a href="#" class="link">Add an avatar</a>
+            </div>
+            <div>
+                <h2 class="nombre"> James Doe</h2>
+            </div>
+        </div>
+        <div class="col-der">
+            <div class="perfil-1">
+                <ul>
+                    <li><h2 class="nomb">Neil M</h2></li>
+                    <li id="numeroDeLike-1"> 9 like(s)</li>
+                    <li><button class="like" onclick="like()"> Like</button></li>
+                </ul>
+                <p class="comentario">
+                    I just set up this new discord bot, let me <br>
+                    know what you all think <a href="#">link</a>
+                </p>
+            </div>
+            <div class="perfil-2">
+                <ul>
+                    <li><h2 class="nomb">Nichole K</h2></li>
+                    <li id="numeroDeLike-2"> 12 like(s)</li>
+                    <li><button  class="like" onclick="like()"> Like</button></li>
+                </ul>
+                <p class="comentario">
+                    Just finished my <a href="#">next comic</a>, check it out.
+                </p>
+            </div> 
+            <div class="perfil-3">  
+                <ul>
+                    <li><h2 class="nomb">Jim R</h2></li>
+                    <li id ="numeroDeLike-3"> 9 like(s) </li>
+                    <li><button class="like" onclick="like()"> Like</button></li>
+                </ul>
+                <p class="comentario">
+                    I can't stop listening to the <a href="#">new album</a>. <br>
+                    who else is liking it ?
+                </p>
+            </div>    
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
